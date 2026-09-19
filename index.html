@@ -1,0 +1,524 @@
+<!--Vous n'êtes pas censé être ici -->
+<!--Vous n'êtes pas censé être ici -->
+<!--Vous n'êtes pas censé être ici -->
+<!--Vous n'êtes pas censé être ici -->
+<!--Vous n'êtes pas censé être ici -->
+<!--Vous n'êtes pas censé être ici -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nolhan DELERUE – Portfolio BTS SIO</title>
+<meta name="description" content="Portfolio de Nolhan DELERUE, étudiant en BTS SIO : projets, stages, compétences, veille technologique et tableau de synthèse E5.">
+<!--Vous n'êtes pas censé être ici -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="topbar">
+  <div class="wrap">
+    <a class="brand" href="#accueil">Nolhan DELERUE</a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projets">Projets</a>
+      <a href="#stages">Stages</a>
+      <a href="#competences">Compétences</a>
+      <a href="#veille">Veille</a>
+      <a href="#e5">Tableau E5</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+
+  <!-- ===== ACCUEIL ===== -->
+  <section class="hero" id="accueil">
+    <div class="wrap">
+      <div>
+        <h1>Nolhan<br>Delerue</h1>
+        <p class="role">Étudiant en BTS SIO, option <span data-option-name>SISR</span></p>
+        <p class="intro">
+          J'apprends à installer, sécuriser et faire évoluer des systèmes d'information.
+          Ce portfolio rassemble mes projets, mes stages et ma veille technologique.
+        </p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+          <a class="btn btn-secondary" href="cv(0).pdf" download>Télécharger mon CV</a>
+        </div>
+        <dl class="facts">
+          <div><dt>Formation</dt><dd>BTS SIO, 1e année</dd></div>
+          <div><dt>Établissement</dt><dd>Lycée DeLaSalle</dd></div>
+          <div><dt>Recherche</dt><dd>Stage de 6 semaines</dd></div>
+        </dl>
+      </div>
+
+      <svg class="diagram" viewBox="0 0 420 350" role="img"
+           aria-label="Schéma réseau simplifié : Internet, pare-feu, commutateur, puis serveur, base de données et poste client.">
+        <g>
+          <path class="link" d="M210 62 V112"/>
+          <path class="link" d="M210 152 V202"/>
+          <path class="link" d="M210 242 V270 H90 V292"/>
+          <path class="link" d="M210 242 V292"/>
+          <path class="link" d="M210 242 V270 H330 V292"/>
+        </g>
+        <g>
+          <rect x="150" y="22" width="120" height="40" rx="20"/><text x="210" y="47">Internet</text>
+          <rect class="firewall" x="150" y="112" width="120" height="40" rx="8"/><text x="210" y="137">Pare-feu</text>
+          <rect x="150" y="202" width="120" height="40" rx="8"/><text x="210" y="227">Commutateur</text>
+          <rect x="30" y="292" width="120" height="44" rx="8"/><text x="90" y="319">Serveur</text>
+          <rect x="150" y="292" width="120" height="44" rx="8"/><text x="210" y="319">Base de données</text>
+          <rect x="270" y="292" width="120" height="44" rx="8"/><text x="330" y="319">Poste client</text>
+        </g>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ===== PARCOURS ===== -->
+  <section class="section" id="parcours">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Parcours</h2>
+        <p>Ma formation et ce qui m'a mené à l'informatique.</p>
+      </div>
+      <div class="section-body">
+        <ol class="timeline">
+          <li>
+            <time>2026 – 2028</time>
+            <h3>BTS SIO option <span data-option-name>SISR</span></h3>
+            <p>Pole Sup DeLaSalle, Rennes. <span data-option-full>Solutions d'infrastructure, systèmes et réseaux (SISR)</span>.</p>
+          </li>
+          <li>
+            <time>2022 – 2026</time>
+            <h3>Baccalauréat STMG 2026</h3>
+            <p>Lycée DeLaSalle, Rennes. Spécialités : STMG (SIG).</p>
+          </li>
+          
+        </ol>
+        <p>
+          Fortement intéressé par réseaux, cybersécurité et développement, je monte mon propre laboratoire
+          à la maison pour tester ce que j'apprends en cours.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJETS ===== -->
+  <section class="section" id="projets">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Projets</h2>
+        <p>Réalisations en cours, en TP. Cliquez sur un projet pour voir le détail.</p>
+      </div>
+      <div class="section-body">
+        <div class="filters" role="group" aria-label="Filtrer les projets">
+          <button type="button" data-filter="all" aria-pressed="true">Tous</button>
+          <button type="button" data-filter="reseau" aria-pressed="false">Réseaux et systèmes</button>
+          <button type="button" data-filter="dev" aria-pressed="false">Développement</button>
+          <button type="button" data-filter="cyber" aria-pressed="false">Cybersécurité</button>
+        </div>
+
+        <ul class="projects">
+          <li class="project" data-cat="reseau">
+            <details>
+              <summary>
+                <span class="p-title">XX</span>
+                <span class="p-year">XX</span>
+                <span class="p-stack">XX</span>
+              </summary>
+              <div class="p-body">
+                <div><h4>Contexte</h4><p>XX</p></div>
+                <div><h4>Ce que j'ai fait</h4>
+                  <ul>
+                    <li>XX</li>
+                    <li>XX</li>
+                    <li>XX</li>
+                  </ul>
+                </div>
+                <p><a href="docs/glpi.pdf">Lire la documentation technique (PDF)</a></p>
+              </div>
+            </details>
+          </li>
+
+          <li class="project" data-cat="reseau" data-only="SISR">
+            <details>
+              <summary>
+                <span class="p-title">XX</span>
+                <span class="p-year">XX</span>
+                <span class="p-stack">XX</span>
+              </summary>
+              <div class="p-body">
+                <div><h4>Contexte</h4><p>XX</p></div>
+                <div><h4>Ce que j'ai fait</h4>
+                  <ul>
+                    <li>XX</li>
+                    <li>XX</li>
+                    <li>XX</li>
+                  </ul>
+                </div>
+                <p><a href="docs/active-directory.pdf">Lire la documentation technique (PDF)</a></p>
+              </div>
+            </details>
+          </li>
+
+          <li class="project" data-cat="cyber" data-only="SISR">
+            <details>
+              <summary>
+                <span class="p-title">XX</span>
+                <span class="p-year">XX</span>
+                <span class="p-stack">XX</span>
+              </summary>
+              <div class="p-body">
+                <div><h4>Contexte</h4><p>XX</p></div>
+                <div><h4>Ce que j'ai fait</h4>
+                  <ul>
+                    <li>XX</li>
+                    <li>XX</li>
+                    <li>XX</li>
+                  </ul>
+                </div>
+                <p><a href="docs/pfsense.pdf">Lire la documentation technique (PDF)</a></p>
+              </div>
+            </details>
+          </li>
+
+          <li class="project" data-cat="dev" data-only="SLAM">
+            <details>
+              <summary>
+                <span class="p-title">XX</span>
+                <span class="p-year">XX</span>
+                <span class="p-stack">XX</span>
+              </summary>
+              <div class="p-body">
+                <div><h4>Contexte</h4><p>XX</p></div>
+                <div><h4>Ce que j'ai fait</h4>
+                  <ul>
+                    <li>XX</li>
+                    <li>XX</li>
+                    <li>XX</li>
+                  </ul>
+                </div>
+                <p><a href="https://github.com/votre-pseudo/gestion-stock">Voir le code sur GitHub</a></p>
+              </div>
+            </details>
+          </li>
+
+          <li class="project" data-cat="cyber" data-only="SLAM">
+            <details>
+              <summary>
+                <span class="p-title">XX</span>
+                <span class="p-year">XX</span>
+                <span class="p-stack">XX</span>
+              </summary>
+              <div class="p-body">
+                <div><h4>Contexte</h4><p>XX</p></div>
+                <div><h4>Ce que j'ai fait</h4>
+                  <ul>
+                    <li>XX</li>
+                    <li>XX</li>
+                    <li>XX</li>
+                  </ul>
+                </div>
+                <p><a href="https://github.com/votre-pseudo/api-securisee">Voir le code sur GitHub</a></p>
+              </div>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STAGES ===== -->
+  <section class="section" id="stages">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Stages</h2>
+        <p>Expériences en entreprise pendant le BTS.</p>
+      </div>
+      <div class="section-body">
+        <div class="stages">
+          <article class="stage">
+            <h3>Entreprise [Nom]</h3>
+            <p class="meta">Stage de 5 semaines, 2025, [Ville]</p>
+            <p>Service informatique d'une PME de [secteur], 2 techniciens.</p>
+            <ul>
+              <li>Installation et configuration de postes Windows 11</li>
+              <li>Traitement des tickets d'assistance de niveau 1</li>
+              <li>Mise à jour de l'inventaire du parc</li>
+            </ul>
+          </article>
+          <article class="stage">
+            <h3>Collectivité [Nom]</h3>
+            <p class="meta">Stage de 5 semaines, 2026, [Ville]</p>
+            <p>Direction des systèmes d'information d'une mairie de [X] habitants.</p>
+            <ul>
+              <li>Sauvegarde et restauration de serveurs</li>
+              <li>Sensibilisation des agents au phishing</li>
+              <li>Documentation d'une procédure d'arrivée d'un agent</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COMPÉTENCES ===== -->
+  <section class="section" id="competences">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Compétences</h2>
+        <p>Technologies pratiquées et blocs de compétences du référentiel du BTS SIO.</p>
+      </div>
+      <div class="section-body">
+        <div>
+          <div class="skill-group" data-only="SISR">
+            <h3>Systèmes</h3>
+            <ul class="chips"><li>Windows Server</li><li>XX</li><li>Debian</li><li>XX</li><li>PowerShell</li><li>Proxmox</li></ul>
+          </div>
+          <div class="skill-group" data-only="SISR">
+            <h3>Réseaux</h3>
+            <ul class="chips"><li>IP</li><li>VLAN</li><li>Routage</li><li>DNS / DHCP</li><li>Cisco Packet Tracer</li><li>XX</li></ul>
+          </div>
+          <div class="skill-group" data-only="SLAM">
+            <h3>Langages</h3>
+            <ul class="chips"><li>C#</li><li>XX</li><li>Python</li><li>XX</li><li>SQL</li><li>HTML / CSS</li></ul>
+          </div>
+          <div class="skill-group" data-only="SLAM">
+            <h3>Outils de dev</h3>
+            <ul class="chips"><li>Git / GitHub</li><li>VS Code</li><li>XX</li><li>XX</li><li>XX</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Support</h3>
+            <ul class="chips"><li>XX</li><li>XX</li><li>XX</li><li>Virtualisation VirtualBox</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Sécurité</h3>
+            <ul class="chips"><li>XX</li><li>Wireshark</li><li>Sauvegardes 3-2-1</li><li>RGPD</li></ul>
+          </div>
+          <div class="skill-group">
+            <h3>Langues</h3>
+            <ul class="chips"><li>Français (natif)</li><li>Anglais (B2)</li><li>Italien (B2)</li></ul>
+          </div>
+        </div>
+
+        <ul class="blocs">
+          <li>
+            <h3>Bloc 1 : Support et mise à disposition de services informatiques</h3>
+            <p>Gérer le patrimoine informatique, répondre aux incidents et aux demandes d'assistance, travailler en mode projet.</p>
+          </li>
+          <li data-only="SISR">
+            <h3>Bloc 2 SISR : Administration des systèmes et des réseaux</h3>
+            <p>Installer, intégrer, administrer et faire évoluer une infrastructure, dans un souci de qualité de service.</p>
+          </li>
+          <li data-only="SLAM">
+            <h3>Bloc 2 SLAM : Conception et développement d'applications</h3>
+            <p>Concevoir, développer, tester et maintenir une solution applicative.</p>
+          </li>
+          <li>
+            <h3>Bloc 3 : Cybersécurité des services informatiques</h3>
+            <p>Protéger les données, sécuriser les équipements et les applications, garantir la disponibilité des services.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== VEILLE ===== -->
+  <section class="section" id="veille">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Veille technologique</h2>
+        <p>Comment je me tiens informé et ce que j'en retiens.</p>
+      </div>
+      <div class="section-body">
+        <div class="veille-theme">
+          <h3>Thème suivi : [ex. les ransomwares dans les collectivités]</h3>
+          <p>Je suis ce sujet parce que [raison]. Il concerne directement [lien avec ton stage ou ton option].</p>
+        </div>
+
+        <div class="veille-cols">
+          <div>
+            <h3>Outils de veille</h3>
+            <ul>
+              <li>Agrégateur RSS : Feedly</li>
+              <li>Alertes Google sur [mots-clés]</li>
+              <li>Newsletter de [source]</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Sources</h3>
+            <ul>
+              <li><a href="https://www.cert.ssi.gouv.fr/">CERT-FR</a></li>
+              <li><a href="https://www.cybermalveillance.gouv.fr/">Cybermalveillance.gouv.fr</a></li>
+              <li><a href="https://www.zdnet.fr/">ZDNet France</a></li>
+              <li><a href="https://www.lemondeinformatique.fr/">Le Monde Informatique</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom:.75rem">Dernières fiches de veille</h3>
+          <ul class="news">
+            <li>
+              <time>[JJ/MM/AAAA]</time>
+              <div>
+                <a href="#">Titre de l'article ou de la fiche</a>
+                <p>Résumé en deux phrases : ce qui s'est passé et pourquoi c'est important.</p>
+              </div>
+            </li>
+            <li>
+              <time>[JJ/MM/AAAA]</time>
+              <div>
+                <a href="#">Titre de l'article ou de la fiche</a>
+                <p>Résumé en deux phrases : ce qui s'est passé et pourquoi c'est important.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TABLEAU DE SYNTHÈSE E5 ===== -->
+  <section class="section" id="e5">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Tableau de synthèse E5</h2>
+        <p>Pour chaque réalisation : le contexte, les blocs de compétences travaillés et les preuves disponibles.</p>
+      </div>
+      <div class="section-body">
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Tableau de synthèse des réalisations">
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Réalisation</th>
+                <th scope="col">Contexte</th>
+                <th scope="col" class="check">Bloc 1</th>
+                <th scope="col" class="check">Bloc 2</th>
+                <th scope="col" class="check">Bloc 3</th>
+                <th scope="col">Preuves</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">R1 : Gestion de parc avec GLPI</th>
+                <td>Formation</td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td class="check" aria-label="Non"></td>
+                <td class="check" aria-label="Non"></td>
+                <td><a href="docs/glpi.pdf">Documentation</a></td>
+              </tr>
+              <tr>
+                <th scope="row">R2 : [Nom de la réalisation]</th>
+                <td>Formation</td>
+                <td class="check" aria-label="Non"></td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td class="check" aria-label="Non"></td>
+                <td><a href="#">Documentation</a></td>
+              </tr>
+              <tr>
+                <th scope="row">R3 : [Nom de la réalisation]</th>
+                <td>Stage 1</td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td class="check" aria-label="Non"></td>
+                <td><a href="#">Attestation de stage</a></td>
+              </tr>
+              <tr>
+                <th scope="row">R4 : [Nom de la réalisation]</th>
+                <td>Stage 2</td>
+                <td class="check" aria-label="Non"></td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td class="check" aria-label="Oui">✓</td>
+                <td><a href="#">Attestation de stage</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p><a href="docs/tableau-synthese.pdf">Télécharger le tableau de synthèse officiel (PDF)</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Une question, une proposition d'alternance ? Écrivez-moi.</p>
+      </div>
+      <div class="section-body">
+        <ul class="contact-list">
+          <li><span>E-mail</span><a href="mailto:nolhandelerue35@gmail.com">Mon E-mail</a></li>
+          <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/nolhan-delerue/">Ma page Linkedin</a></li>
+          <li><span>GitHub</span><a href="https://github.com/votre-pseudo">Mon GitHub</a></li>
+          <li><span>CV</span><a href="cv(0).pdf" download">Acceder a mon CV</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    Portfolio réalisé dans le cadre du BTS SIO.
+    © <span id="annee"></span> Nolhan DELERUE. Tous droits réservés.
+  </div>
+</footer>
+
+<script>
+  // ---------- Réglages ----------
+  // Choisis ton option : "SISR" ou "SLAM". La page affiche seulement ce qui la concerne.
+  const CONFIG = { option: "SISR" };
+
+  const NOMS_COMPLETS = {
+    SISR: "Solutions d'infrastructure, systèmes et réseaux",
+    SLAM: "Solutions logicielles et applications métiers"
+  };
+
+  // ---------- Option SISR / SLAM ----------
+  document.querySelectorAll("[data-option-name]").forEach(el => el.textContent = CONFIG.option);
+  document.querySelectorAll("[data-option-full]").forEach(el => el.textContent = NOMS_COMPLETS[CONFIG.option]);
+  document.querySelectorAll("[data-only]").forEach(el => {
+    if (el.dataset.only !== CONFIG.option) el.hidden = true;
+  });
+
+  // ---------- Filtres des projets ----------
+  const boutons = document.querySelectorAll(".filters button");
+  const projets = document.querySelectorAll(".project");
+
+  function filtrer(categorie) {
+    projets.forEach(p => {
+      const bonneOption = !p.dataset.only || p.dataset.only === CONFIG.option;
+      const bonneCategorie = categorie === "all" || p.dataset.cat === categorie;
+      p.hidden = !(bonneOption && bonneCategorie);
+    });
+    boutons.forEach(b => b.setAttribute("aria-pressed", String(b.dataset.filter === categorie)));
+  }
+  boutons.forEach(b => b.addEventListener("click", () => filtrer(b.dataset.filter)));
+
+  // ---------- Lien actif dans le menu ----------
+  const liens = document.querySelectorAll(".nav a");
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        liens.forEach(l => l.setAttribute("aria-current", String(l.getAttribute("href") === "#" + entry.target.id)));
+      }
+    });
+  }, { rootMargin: "-40% 0px -55% 0px" });
+  document.querySelectorAll("main section[id]").forEach(s => observer.observe(s));
+
+  // ---------- Pied de page ----------
+  document.getElementById("annee").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
