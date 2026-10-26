@@ -1,67 +1,3 @@
-/* ---------- Couleurs et typographie (modifie ici pour changer le style) ---------- */
-:root {
-  --bg: #f1f4f8;
-  --surface: #ffffff;
-  --ink: #0f1a2e;
-  --muted: #55627a;
-  --line: #d5dce7;
-  --accent: #2323FF;
-  --on-accent: #ffffff;
-  --signal: #FFD700;
-
-  --font-title: "Bricolage grotesque", "Segoe UI", system-ui, sans-serif;
-  --font-body: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0c1424;
-    --surface: #131d33;
-    --ink: #e8edf7;
-    --muted: #FFFFFF;
-    --line: #5ae0da;
-    --accent: #2323FF;
-    --on-accent: #0c1424;
-    --signal: #2CFF06;
-  }
-}
-
-/* ---------- Base ---------- */
-*, *::before, *::after { box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: var(--font-body);
-  font-size: 1.0625rem;
-  line-height: 1.6;
-  -webkit-font-smoothing: antialiased;
-}
-[hidden] { display: none !important; }
-h1, h2, h3 { font-family: var(--font-title); line-height: 1.1; margin: 0; letter-spacing: -0.02em; }
-h2 { font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 700; }
-h3 { font-size: 1.2rem; font-weight: 600; letter-spacing: -0.01em; }
-p { margin: 0 0 1rem; max-width: 68ch; }
-ul, ol { margin: 0; padding: 0; list-style: none; }
-a { color: var(--accent); text-underline-offset: 3px; }
-a:hover { text-decoration-thickness: 2px; }
-:focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; border-radius: 4px; }
-
-.wrap { width: min(1080px, 100% - 2.5rem); margin-inline: auto; }
-.skip {
-  position: absolute; left: 1rem; top: -4rem; background: var(--ink); color: var(--bg);
-  padding: .6rem 1rem; border-radius: 6px; z-index: 100;
-}
-.skip:focus { top: 1rem; }
-
-/* ---------- Barre de navigation ---------- */
-.topbar {
-  position: sticky; top: 0; z-index: 50;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
-}
-.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; height: 3.5rem; }
 .brand { font-family: var(--font-title); font-weight: 700; font-size: 1.1rem; color: var(--ink); text-decoration: none; white-space: nowrap; }
 .nav { display: flex; gap: 1.25rem; overflow-x: auto; scrollbar-width: none; }
 .nav::-webkit-scrollbar { display: none; }
@@ -70,7 +6,7 @@ a:hover { text-decoration-thickness: 2px; }
   padding: .25rem 0; border-bottom: 2px solid transparent; white-space: nowrap;
 }
 .nav a:hover { color: var(--ink); }
-.nav a[aria-current="true"] {color: #FFD700; border-bottom: 2px solid #FFD700; font-weight: 600;}
+.nav a[aria-current="true"] {color: var(--signal); border-bottom: 2px solid var(--signal); font-weight: 600;}
 
 /* ---------- Accueil ---------- */
 .hero { padding: clamp(2.5rem, 7vw, 5.5rem) 0 clamp(3rem, 7vw, 5rem); }
